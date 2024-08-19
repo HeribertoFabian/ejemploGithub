@@ -1,13 +1,13 @@
-Generar una nueva clave SSH
+### Generar una nueva clave SSH
 ssh-keygen -t ed25519 -C "tuemail@example.com"
 
 
 
-Agregar la clave SSH al agente SSH
+### Agregar la clave SSH al agente SSH
 eval "$(ssh-agent -s)"
 
 
-Agregar tu clave privada al agente SSH:
+### Agregar tu clave privada al agente SSH:
 ssh-add ~/.ssh/id_ed25519
 
 
